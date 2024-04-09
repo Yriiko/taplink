@@ -97,7 +97,7 @@ body {
 .dot-selector {
   display: flex;
   justify-content: space-around;
-  margin: 9px 74px;
+  margin: 9px 74px 15px;
 }
 .dot {
   width: 6px;
@@ -107,4 +107,57 @@ body {
 }
 .dark {
   background-color: #777777;
+}
+.full-buttons,
+.buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin: auto;
+}
+.buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 22px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  height: 33px;
+  margin-bottom: 16px;
+  width: 100%;
+  border-radius: 5px;
+}
+.feedback {
+  justify-content: space-between;
+  background: rgb(119, 119, 119);
+  padding: 12px 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.feedback::after,
+.vk::after {
+  content: ">";
+}
+.vk {
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: rgb(76, 117, 163);
+  font-size: 12px;
+  font-weight: 400;
+}
+.vk img {
+  margin-right: 8px;
+}
+.telegram {
+  background: rgb(0, 136, 204);
+}
+.whatsapp {
+  background: rgb(79, 206, 93);
+}
+.youtube {
+  background: rgb(255, 0, 0);
 }
