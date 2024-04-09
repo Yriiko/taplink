@@ -86,10 +86,25 @@ body {
   margin-bottom: 5px;
 }
 .slider {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  margin: 0 29px;
+  /* justify-content: center; */
 }
 .info-slider {
   border-radius: 15px;
   overflow: hidden;
+}
+.dot-selector {
+  display: flex;
+  justify-content: space-around;
+  margin: 9px 74px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+.dark {
+  background-color: #777777;
 }
